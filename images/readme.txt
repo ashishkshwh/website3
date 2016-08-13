@@ -1,0 +1,1 @@
+just paste images folder in your website root folder and everything will work correctly
