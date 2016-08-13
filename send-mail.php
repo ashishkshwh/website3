@@ -1,17 +1,4 @@
-<!-------------------------------------------------------------------------------
-=========================================
-SELENA - Free Multi-purpose One Page Template
-Version: 1.0 (Initial Release)
-Designed By: Maher Jarrah
-
-Website:		http://maherjarrah.com
-Twitter:			https://twitter.com/MaherJarrah1
-Facebook:		https://fb.com/maherjarrah111
-Behance: 		https://www.behance.net/maherjarrah
-
-You can use this template for your personal purposes only, and it's under Creative Commons Attribution-NonCommercial v3.0 license https://creativecommons.org/licenses/by-nc/3.0/
-=========================================
---------------------------------------------------------------------------------->
+<!----->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,25 +10,12 @@ You can use this template for your personal purposes only, and it's under Creati
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <!-- SITE TITLE -->
-<title>SELENA - Free Multi-Purpose One Page Template</title>
+<title>IAND - Indian Association</title>
 
-<!-- =========================
-      FAV AND TOUCH ICONS  
-========================= -->	
-<link rel="icon" href="images/favicon.ico">
-<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="images/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png">
+<!-- Icon in the title -->
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-<!-- =========================
-     STYLESHEET
-========================= -->	
 <!-- FONT AWESOME -->
 <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -49,13 +23,7 @@ You can use this template for your personal purposes only, and it's under Creati
 <link rel="stylesheet" href="css/navigation.css">
 
 <!-- COLORS -->
-<link rel="stylesheet" href="css/colors/blue.css"> <!-- DEFAULT COLOR/ CURRENTLY USING -->
-<!-- <link rel="stylesheet" href="css/colors/red.css"> -->
-<!-- <link rel="stylesheet" href="css/colors/green.css"> -->
-<!-- <link rel="stylesheet" href="css/colors/yellow.css"> -->
-<!-- <link rel="stylesheet" href="css/colors/turquoise.css"> -->
-<!-- <link rel="stylesheet" href="css/colors/purple.css"> -->
-<!-- <link rel="stylesheet" href="css/colors/orange.css"> -->
+<link rel="stylesheet" href="css/colors/blue.css">
 
 <!-- CUSTOM STYLESHEET -->
 <link rel="stylesheet" href="css/styles.css">
@@ -111,13 +79,11 @@ $('html').addClass('js');
 			
 			<li><a href="index.html#about">About</a></li>
 			
-			<li><a href="index.html#services">Services</a></li>
-			
-			<li><a href="index.html#portfolio">Portfolio</a></li>
-			
-			<li><a href="index.html#pricing">Pricing</a></li>
+			<li><a href="index.html#activities">Services</a></li>
 			
 			<li><a href="index.html#team">Team</a></li>
+
+			<li><a href="#info">Information</a></li>
 			
 			<li>
 				<a href="#" class="external">Features</a> <!-- external link (out of this page) -->
@@ -132,12 +98,6 @@ $('html').addClass('js');
 			
 			<li><a href="index.html#contact">Contact</a></li>	
 			
-			<li>
-				<!-- BUTTON -->
-				<div class="btn-container">
-					<a class="btn standard-btn" href="#">Download</a>
-				</div>		
-			</li>
 		</ul>
 		
 	</div> <!-- /END WRAPPER -->
@@ -155,15 +115,14 @@ $('html').addClass('js');
 			<?php
 
 			// Set the email subject
-			$subject = "SELENA - Free Multi-Purpose One Page Template";
+			$subject = "Query from IAND page";
 
 			// FIXME: Update this to your desired email address
-			$to = "maherjarrah@dds.com";
+			$to = "akushwah@nd.edu";
 
 			// Build the email data
 			$msg = "NAME: "  .$_POST['name']    ."<br>\n";
 			$msg .= "EMAIL: "  .$_POST['email']    ."<br>\n";
-			$msg .= "Phone Number: "  .$_POST['phone']    ."<br>\n";
 			$msg .= "message: "  .$_POST['message']    ."<br>\n";
 
 			// Build the email headers
